@@ -1,5 +1,5 @@
 # Codility
-solutions to challenges/lessons that are completed. Sharing answers to challenges that have expired and lessons can be shared as per codility's rules. 
+solutions to challenges/lessons that are completed. Sharing answers to challenges that have expired and lessons are not in violation as per codility's rules. 
 
 Task 1 : Manhattan Problem:
 
