@@ -48,3 +48,13 @@ For example, given an integer N = 30, the function should return 22, as explaine
 Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [1..1,000,000,000].
+
+Task 3:
+*******
+Given 2 integers find if these integers have common prime divisors.
+
+example:
+if N =15 and M =75 the prime divisors are same {3,5}
+if N=10 and M = 30 then they dont have same prime divisors {2,5} != {2,3,5}
+
+
