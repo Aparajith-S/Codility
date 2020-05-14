@@ -25,6 +25,8 @@ Write an efficient algorithm for the following assumptions:
 N is an integer within the range [1..100,000];
 each element of array H is an integer within the range [1..1,000,000,000].
 
+solution is provided in `Task_1_manhattan.c`
+
 ## Task2: Min perimeter Rectangle
 ******************************
 An integer N is given, representing the area of some rectangle.
@@ -50,6 +52,8 @@ Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [1..1,000,000,000].
 
+solution is provided in `Task_2_Min_perimeter.c`
+
 ## Task 3: common prime divisors
 ********************************
 Given 2 integers find if these integers have common prime divisors.
@@ -57,6 +61,8 @@ Given 2 integers find if these integers have common prime divisors.
 example:
 if N =15 and M =75 the prime divisors are same {3,5}
 if N=10 and M = 30 then they dont have same prime divisors {2,5} != {2,3,5}
+
+Solution is provided in `Task_3_divisors.py`
 
 ## Task 4 : chocolate problem
 **************************
@@ -71,6 +77,8 @@ you halt when you encounter a wrapper.
 e.g. N=10 and M = 4 then you eat 0,4,8,2,6. the function you write should return number of chocolates consumed which is 5 in this case. write an efficient algorithm for this.
 
 N,M are integers within the range [1 .. 1,00,000,000]. 
+
+Solution is provided in `Task_4_chocolate.py`
 
 ## Task 5: Distinct Absolute values
 ************************************
@@ -111,3 +119,23 @@ Write an efficient algorithm for the following assumptions:
         each element of array A is an integer within the range [−2,147,483,648..2,147,483,647];
         array A is sorted in non-decreasing order.
 
+Solution is provided in `Task_5_distinct_Abs.c`
+
+## Sieve of Eratosthenes
+************************
+
+The genius greek polymath who gave us with an interesting way to find prime numbers.
+the sieve of finding prime numbers as he was attributed to it. 
+       
+       Time complexity : O(N)
+
+Unknown witty poem:
+
+    Sift the Two's and Sift the Three's,
+    The Sieve of Eratosthenes.
+    When the multiples sublime,
+    The numbers that remain are Prime.
+
+link: [https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes]
+
+code is given in `Task_6_primes.py`
