@@ -1,5 +1,5 @@
 # Codility
-solutions to challenges/lessons that are completed. Sharing answers to challenges that have expired and lessons are not in violation as per codility's rules. 
+solutions to challenges/lessons that are completed. Sharing answers to challenges that have expired and to lessons are not in violation as per codility's rules. 
 
 Task 1 : Manhattan Problem:
 ***************************
@@ -9,15 +9,15 @@ The wall should be built of cuboid stone blocks (that is, all sides of such bloc
 
 Write a function:
 
-int solution(int H[], int N);
+    int solution(int H[], int N);
 
 that, given an array H of N positive integers specifying the height of the wall, returns the minimum number of blocks needed to build it.
 
 For example, given array H containing N = 9 integers:
 
-  H[0] = 8    H[1] = 8    H[2] = 5
-  H[3] = 7    H[4] = 9    H[5] = 8
-  H[6] = 7    H[7] = 4    H[8] = 8
+    H[0] = 8    H[1] = 8    H[2] = 5
+    H[3] = 7    H[4] = 9    H[5] = 8
+    H[6] = 7    H[7] = 4    H[8] = 8  
 the function should return 7. The figure shows one possible arrangement of seven blocks.
 
 Write an efficient algorithm for the following assumptions:
@@ -35,10 +35,11 @@ The goal is to find the minimal perimeter of any rectangle whose area equals N. 
 
 For example, given integer N = 30, rectangles of area 30 are:
 
-(1, 30), with a perimeter of 62,
-(2, 15), with a perimeter of 34,
-(3, 10), with a perimeter of 26,
-(5, 6), with a perimeter of 22.
+    (1, 30), with a perimeter of 62,
+    (2, 15), with a perimeter of 34,
+    (3, 10), with a perimeter of 26,
+    (5, 6), with a perimeter of 22.
+
 Write a function:
 
 that, given an integer N, returns the minimal perimeter of any rectangle whose area is exactly equal to N.
@@ -77,12 +78,13 @@ Task 5: Distinct Abs values
 A non-empty array A consisting of N numbers is given. The array is sorted in non-decreasing order. The absolute distinct count of this array is the number of distinct absolute values among the elements of the array.
 
 For example, consider array A such that:
-  A[0] = -5
-  A[1] = -3
-  A[2] = -1
-  A[3] =  0
-  A[4] =  3
-  A[5] =  6
+   
+    A[0] = -5
+    A[1] = -3
+    A[2] = -1
+    A[3] =  0
+    A[4] =  3
+    A[5] =  6
 
 The absolute distinct count of this array is 5, because there are 5 distinct absolute values among the elements of this array, namely 0, 1, 3, 5 and 6.
 
@@ -93,12 +95,13 @@ Write a function:
 that, given a non-empty array A consisting of N numbers, returns absolute distinct count of array A.
 
 For example, given array A such that:
-  A[0] = -5
-  A[1] = -3
-  A[2] = -1
-  A[3] =  0
-  A[4] =  3
-  A[5] =  6
+
+    A[0] = -5
+    A[1] = -3
+    A[2] = -1
+    A[3] =  0
+    A[4] =  3
+    A[5] =  6
 
 the function should return 5, as explained above.
 
