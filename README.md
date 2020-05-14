@@ -1,7 +1,7 @@
 # Codility
 solutions to challenges/lessons that are completed. Sharing answers to challenges that have expired and to lessons are not in violation as per codility's rules. 
 
-Task 1 : Manhattan Problem:
+## Task 1 : Manhattan Problem:
 ***************************
 You are going to build a stone wall. The wall should be straight and N meters long, and its thickness should be constant; however, it should have different heights in different places. The height of the wall is specified by an array H of N positive integers. H[I] is the height of the wall from I to I+1 meters to the right of its left end. In particular, H[0] is the height of the wall's left end and H[N−1] is the height of the wall's right end.
 
@@ -25,7 +25,7 @@ Write an efficient algorithm for the following assumptions:
 N is an integer within the range [1..100,000];
 each element of array H is an integer within the range [1..1,000,000,000].
 
-Task2: Min perimeter Rectangle
+## Task2: Min perimeter Rectangle
 ******************************
 An integer N is given, representing the area of some rectangle.
 
@@ -50,15 +50,15 @@ Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [1..1,000,000,000].
 
-Task 3:
-*******
+## Task 3: common prime divisors
+********************************
 Given 2 integers find if these integers have common prime divisors.
 
 example:
 if N =15 and M =75 the prime divisors are same {3,5}
 if N=10 and M = 30 then they dont have same prime divisors {2,5} != {2,3,5}
 
-Task 4 : chocolate problem
+## Task 4 : chocolate problem
 **************************
 two positive integers M and N are given.
 N represents the number of chocolates arranged in a circle numbered from 0 to N-1
@@ -72,8 +72,8 @@ e.g. N=10 and M = 4 then you eat 0,4,8,2,6. the function you write should return
 
 N,M are integers within the range [1 .. 1,00,000,000]. 
 
-Task 5: Distinct Abs values
-***************************
+## Task 5: Distinct Absolute values
+************************************
 
 A non-empty array A consisting of N numbers is given. The array is sorted in non-decreasing order. The absolute distinct count of this array is the number of distinct absolute values among the elements of the array.
 
