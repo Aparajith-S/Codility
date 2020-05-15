@@ -39,3 +39,8 @@ code is given in `Task_6_primes.py`
 
 link to problem: [https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/]
 code is given in `GenomicRangeQuery.c`
+
+## 
+**********************
+link to problem: [https://app.codility.com/programmers/lessons/8-leader/equi_leader/]
+code is given in `Task_8_Equileader.py`
